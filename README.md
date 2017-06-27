@@ -1,7 +1,7 @@
 # weather-reporter
-The weather app will tell the current weather of the user location using HTML5 geolocation.
--API used - Dark Sky API
--icons - skycons
+The weather app will tell the current weather of the user location using HTML5 geolocation.<br/>
+-API used - Dark Sky API<br/>
+-icons - skycons<br/>
 
 
-live on - [Weather App](https://codepen.io/smasher/full/MpLKXM/)
+Live on - [Weather App](https://codepen.io/smasher/full/MpLKXM/)
