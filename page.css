@@ -1,0 +1,16 @@
+.box{
+  padding-top:20%;
+}
+.good2{
+  border:5px solid black;
+}
+.bad2{
+  border:5px solid black;
+}
+#df{
+  float:right;
+}
+#last{
+  padding-top:20px;
+  text-align:center;
+}
