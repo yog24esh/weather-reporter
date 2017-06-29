@@ -4,6 +4,16 @@
 .good2{
   border:5px solid black;
 }
+.top{
+  font-size:20px;
+  padding-bottom:10px;
+}
+#temp{
+  font-size:55px;
+  font-family:georgia;
+  font-weight:bold;
+ padding:5px;
+}
 .bad2{
   border:5px solid black;
 }
