@@ -1,56 +1,138 @@
 <!DOCTYPE html>
-<html>
 <body>
-<div class="container box">
-  <!--check for container-fluid-->
-  <div class="top text-center">
-    <h4><strong>TIME ZONE</strong></h4></div>
-  <div class="row">
-    <div class="col-md-3 good1"></div>
-    <!-- all information in this coloumn-->
-    <div class="col-md-6 good2">
-      <div class="row bad">
-        <div class="col-md-4 bad1">
-          <!--icon--><canvas id="icon1" width="136" height="136"></canvas>
-        </div>
-
-        <div class="col-md-4 bad2">
-          <!--today temp-->
-          <div id="temp">
-            <h4>TEMPERATURE</h4>
-
-          </div>
-          <h3 id="sym">&#8457</h3>
-          <div id="df">
-            <h4>C/F</h4>
-          </div>
-        </div>
-        <div class="col-md-4 info bad3">
-          <!--humdidity wind pressure uvindex-->
-          <p>
-            <h4 id="humd"><abbr title="Water vapour present in air">Humidity:</abbr></h4></p>
-          <p>
-            <h4 id="wind"><abbr title="Flow of gases in large scale">Wind:</abbr></h4></p>
-          <p>
-            <h4 id="pres"><abbr title="Force perpendicular to surface">Pressure:</abbr></h4></p>
-          <p>
-            <h4 id="uv"><abbr title="Natural ultraviolet rays">UvIndex</abbr></h4></p>
-        </div>
+<div class="main">
+  <div class="wrapper">
+    <div class="sun"></div>
+    <div class="cloud">
+      <div class="cloud1">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
-      <!--row end-->
+      <div class="cloud1 c_shadow">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
     </div>
-    <!--coloumn end-->
-    <div class="col-md-3 good3"></div>
+
+    <div class="cloud_s">
+      <div class="cloud1">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="cloud1 c_shadow">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cloud_vs">
+      <div class="cloud1">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="cloud1 c_shadow">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="haze"></div>
+    <div class="haze_stripe"></div>
+    <div class="haze_stripe"></div>
+    <div class="haze_stripe"></div>
+    <div class="thunder"></div>
+    <div class="rain">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    
+    
   </div>
+
   <div id="last"><button type="button" class="btn btn-info">Know Weather</button></div>
 </div>
-<!-- cintainer end box end-->
-<br>
-<br>
-<br>
-<br>
-<footer>
-  <p class="text-center"> <a href="https://darksky.net/poweredby/" target="_blank">Powered by Dark Sky</a></p>
-</footer>
-</body>
+<!--main front page-->
+<div class="main2">
+  <div class="container box">
+    <!--check for container-fluid-->
+    <div class="top text-center">
+      <h4><strong>TIME ZONE</strong></h4></div>
+    <div class="row">
+      <div class="col-md-3 good1"></div>
+      <!-- all information in this coloumn-->
+      <div class="col-md-6 good2">
+        <div class="row bad">
+          <div class="col-md-4 bad1">
+            <!--icon--><canvas id="icon1" width="136" height="136"></canvas>
+          </div>
+
+          <div class="col-md-4 bad2">
+            <!--today temp-->
+            <div id="temp">
+              <br>
+
+              <h4>TEMPERATURE</h4>
+
+            </div>
+            <p>
+              <h3 id="sym">&#8457</h3>
+            </p>
+            <h4 id="df">C/F</h4>
+
+          </div>
+          <div class="col-md-4 info bad3">
+            <!--humdidity wind pressure uvindex-->
+            <p>
+              <h4 id="humd"><abbr title="Water vapour present in air">Humidity:</abbr></h4></p>
+            <p>
+              <h4 id="wind"><abbr title="Flow of gases in large scale">Wind:</abbr></h4></p>
+            <p>
+              <h4 id="pres"><abbr title="Force perpendicular to surface">Pressure:</abbr></h4></p>
+            <p>
+              <h4 id="uv"><abbr title="Natural ultraviolet rays">UvIndex</abbr></h4></p>
+          </div>
+        </div>
+        <!--row end-->
+      </div>
+      <!--coloumn end-->
+      <div class="col-md-3 good3"></div>
+    </div>
+    <div id="last"><button type="button" class="btn btn-info">Know Weather</button></div>
+  </div>
+  <!-- cintainer end box end-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <p class="text-center"> <a href="https://darksky.net/poweredby/" target="_blank">Powered by Dark Sky</a></p>
+  </footer>
+  <div>
+    </body>
 </html>
