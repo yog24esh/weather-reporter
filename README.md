@@ -4,4 +4,4 @@ API used - Dark Sky API<br/>
 Icons - Skycons<br/>
 
 
-Live on - [Weather App](https://codepen.io/smasher/full/MpLKXM/)
+Live - [Weather App](https://codepen.io/smasher/full/MpLKXM/)
