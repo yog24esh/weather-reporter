@@ -4,4 +4,10 @@ API used - Dark Sky API<br/>
 Icons - Skycons<br/>
 
 
+Weather Reporter example - 
+
+![Alt text](https://raw.githubusercontent.com/yog24esh/weather-reporter/master/res/Screenshot%20(40).png)
+
+
+
 Live - [Weather App](https://codepen.io/smasher/full/MpLKXM/)
